@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>funcool</groupId>
+  <artifactId>tools</artifactId>
+  <version>1.0</version>
+  <name>tools</name>
+  <description>A general purpose utils for Clojure and ClojureScript</description>
+  <url>https://github.com/funcool/tools</url>
+  <licenses>
+    <license>
+      <name>MPL-2.0</name>
+      <url>https://opensource.org/licenses/MPL-2.0</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/funcool/tool.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/funcool/tools.git</developerConnection>
+    <tag>master</tag>
+    <url>https://github.com/funcool/tools</url>
+  </scm>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.10.3</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+</project>

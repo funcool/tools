@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+# clojure -M:dev -e "(set! *warn-on-reflection* true)" -m rebel-readline.main
+# clojure -M:dev -m rebel-readline.main
+clojure -J-Djdk.tracePinnedThreads=short -J-Djdk.virtualThreadScheduler.parallelism=16 -J--enable-preview -M:dev -m rebel-readline.main
