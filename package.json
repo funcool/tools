@@ -12,6 +12,7 @@
     "watch-test": "clojure -M:dev:shadow-cljs watch test",
     "compile-test": "clojure -M:dev:shadow-cljs compile test --config-merge '{:autorun false}'",
     "run-test": "node target/tests.js",
+    "examples-watch": "clojure -M:dev:shadow-cljs watch examples",
     "test": "npm run compile-test && npm run run-test"
   },
   "devDependencies": {

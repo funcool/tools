@@ -1,7 +1,7 @@
-{:paths ["src" "resources" "target/classes"],
+{:paths ["src" "resources"],
  :deps
  {funcool/promesa
-  {:git/sha "aee3828d2ba1056de38a06050d5939c3d86dc440"
+  {:git/sha "bbef8d79bf1aa27c8aa2f889a66a946a8657a438"
    :git/url "https://github.com/funcool/promesa.git"}
   org.slf4j/slf4j-api {:mvn/version "2.0.5"}
   expound/expound {:mvn/version "0.9.0"}
@@ -19,7 +19,7 @@
     criterium/criterium {:mvn/version "RELEASE"}
     thheller/shadow-cljs {:mvn/version "RELEASE"}
     org.slf4j/slf4j-simple {:mvn/version "2.0.5"}}
-   :extra-paths ["test" "dev" "src"]},
+   :extra-paths ["test" "dev" "src" "target/examples"]},
 
   :repl
   {:main-opts  ["-m" "rebel-readline.main"]}
